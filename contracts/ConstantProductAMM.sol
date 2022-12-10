@@ -1,9 +1,8 @@
 pragma solidity ^0.8.12;
 
 import "./interfaces/IERC20.sol";
-import "hardhat/console.sol";
 
-contract AnyxSwap {
+contract AnyxSwapCP {
 
     IERC20 public immutable tokenA;
     IERC20 public immutable tokenB;
